@@ -31,7 +31,8 @@ def query_example():
 def runme():
     log.info("----> updating NLTK wordnet...")
     #monitor(server, port=config.PROMETHEUS_PORT, addr="")
-    server.run(host=config.HOST, debug=config.DEBUG)
+    #server.run(host=config.HOST, debug=config.DEBUG)
+    server.run()
     
 if __name__ == "__main__":
     # Start 

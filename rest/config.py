@@ -10,7 +10,7 @@ Created on Mon Aug 27 20:00:32 2018
 Holds configuration attributes for rest service
 """
 
-HOST = "localhost"
+HOST = "68.3.248.113"
 PORT = 38182
 DEBUG = False
 THREADS_PER_PAGE = 4
